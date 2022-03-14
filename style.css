@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -19,4 +20,22 @@ h1 {
 
 .Half-width img {
     width: 100%;
+}
+
+.topbanner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+section {
+    height: 500px;
+}
+
+.youtubelink {
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
 }
