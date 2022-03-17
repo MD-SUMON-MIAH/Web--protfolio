@@ -14,8 +14,8 @@ h1 {
 .Half-width {
     width: 40%;
     float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+    margin-left: 4%;
+    padding-left: 4%;
 }
 
 .Half-width img {
@@ -27,8 +27,15 @@ h1 {
     background-repeat: no-repeat;
 }
 
+.DreamArea {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 section {
     height: 500px;
+    padding: 50px;
 }
 
 .youtubelink {
@@ -38,4 +45,18 @@ section {
     border-radius: 5px;
     color: white;
     font-weight: bold;
+}
+
+.single-experiance {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    width: 30%;
+    float: left;
+    margin: 20px 20px;
+}
+
+footer p {
+    text-align: center;
+    font-size: medium;
 }
